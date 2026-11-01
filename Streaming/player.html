@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" style="height:100%">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aeronaut · Play in your browser</title>
+<style>html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#08252d;font-family:Arial,sans-serif}button{font-family:inherit}</style>
+</head><body><script>
+// Unreal's first startup can take a minute while shaders and assets load.
+const url = new URL(location.href);
+for (const [key, value] of Object.entries({AutoConnect:'true',AutoPlayVideo:'true',HoveringMouse:'true',WaitForStreamer:'true',MaxReconnectAttempts:'60'})) {
+    if (!url.searchParams.has(key)) url.searchParams.set(key,value);
+}
+history.replaceState(null,'',url);
+</script><script src="/player.js"></script></body></html>

@@ -1,0 +1,7 @@
+# Asset catalogs bind generator source hashes; preserve bytes on every checkout.
+* -text
+*.png binary
+*.jpg binary
+*.blend binary
+*.uasset binary
+*.umap binary

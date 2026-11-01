@@ -1,0 +1,24 @@
+{
+  "release": "v0.2.0-preview",
+  "repository": "johnfabian/flight-sim-unreal",
+  "assets": [
+    {
+      "target": "Windows",
+      "file": "Aeronaut-Windows-KeyWest-v0.2.0.zip",
+      "bytes": 677908862,
+      "sha256": "b4dcfdc35678fe37a9b5389a71f27aa56c7e10bb2cc634c0ea7d090dec6fe44f",
+      "files": 155,
+      "unpacked_bytes": 1041906557,
+      "url": "https://github.com/johnfabian/flight-sim-unreal/releases/download/v0.2.0-preview/Aeronaut-Windows-KeyWest-v0.2.0.zip"
+    },
+    {
+      "target": "Editor",
+      "file": "Aeronaut-EditorAssets-v0.2.0.zip",
+      "bytes": 760374241,
+      "sha256": "d4ab1392d7254347946fa2896582101528fa285d6269d38187ea5b457916f24c",
+      "files": 2655,
+      "unpacked_bytes": 1213312795,
+      "url": "https://github.com/johnfabian/flight-sim-unreal/releases/download/v0.2.0-preview/Aeronaut-EditorAssets-v0.2.0.zip"
+    }
+  ]
+}

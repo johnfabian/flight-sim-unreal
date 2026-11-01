@@ -1,0 +1,132 @@
+{
+  "source_snapshot": "dc6ea9e12302f1b57758da7c731c137faec3a764",
+  "snapshot_history": "New public history; private development history is not published.",
+  "original_binary_sha256": "10eb8b50d10b6cbb99cfa2213a51b0fc9facdc9ef52cde7f838ad088f0d58b34",
+  "cooked_assets_sha256": "b18e342dcdc8d8d7a1ee241bc602d5f5d0f6ceb6c656f8977c2019b3673c7098",
+  "public_changes": [
+    "Safe source engine configuration",
+    "Public documentation and asset download helper",
+    "Debug symbols and runtime data excluded",
+    "Unused vendor SDK client secret blanked in public PAK",
+    "Removed website scripts/beacons from cached license HTML; visible terms and links preserved",
+    "Cleared remembered file-browser home directories in four Blender copies; every non-UI byte preserved"
+  ],
+  "screenshots": [
+    {
+      "file": "docs/screenshots/keywest-aircraft.png",
+      "sha256": "c35c2cb748de9892eacf3c8e5c18a024b1afa46624f4654a85eecbed22f1b4b3",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "docs/screenshots/keywest-cockpit.png",
+      "sha256": "b9be978eb43301ba81f11e8870a9bbb60830f12b6828363d0ba0e51f5734bc20",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "docs/screenshots/keywest-overview.png",
+      "sha256": "74897065bbedc848a1d799219ef00d7c0db6afb828ee5579950962a8547f52b2",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "docs/screenshots/keywest-building.png",
+      "sha256": "1777bc2f0ba4c565cbad4d4dadd50227c4efb252ad1ee327ebfaa7f37d6c347d",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "docs/screenshots/keywest-boat.png",
+      "sha256": "3fbd28665a76b40946fdc2242535af5c5be6dbafe48282d05d822d0c83e96982",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "docs/screenshots/keywest-before.png",
+      "sha256": "1d95d0a1236a7ee19e572340b3316e6fa9cef8a80c8bffb4774be8d353b164b8",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "license_page_modifications": [
+    {
+      "path": "editor-assets/Art/KeyWest/Data/ODbL-1.0.html",
+      "removed_script_blocks": 6,
+      "original_sha256": "85bc21fb2c00b2effb9202b2aa785934ce5a05df954e17cbd2a1f7c10c04c633",
+      "published_sha256": "b6db1665ac63d52e5fb6a36d05993f099b115028107f511e59560d3343ed6858",
+      "visible_text_and_links_unchanged": true
+    },
+    {
+      "path": "editor-assets/Art/KeyWestDetail/Textures/CC0/license.html",
+      "removed_script_blocks": 16,
+      "original_sha256": "46158a6b319ae8ef55acd18bd96d986c9261fb0cc8086124e97bcbefe779a623",
+      "published_sha256": "14cc664ef38d13885a1c84971ea8896a94f74db881b047f3edb5355cd1f3d4e1",
+      "visible_text_and_links_unchanged": true
+    },
+    {
+      "path": "windows/Windows/Engine/Extras/GPUDumpViewer/GPUDumpViewer.html",
+      "removed_script_blocks": 1,
+      "original_sha256": "eb599b5171e99d7c2e35732abf9525baeb39b9c2ac86619522f307c57cc90384",
+      "published_sha256": "6b549cd0b37c1b6bfb8c009e789c58704d62bab765c655740aca85e2c0d51c86",
+      "visible_text_and_links_unchanged": true
+    },
+    {
+      "path": "windows/Windows/KeyWest-source-data/ODbL-1.0.html",
+      "removed_script_blocks": 6,
+      "original_sha256": "85bc21fb2c00b2effb9202b2aa785934ce5a05df954e17cbd2a1f7c10c04c633",
+      "published_sha256": "b6db1665ac63d52e5fb6a36d05993f099b115028107f511e59560d3343ed6858",
+      "visible_text_and_links_unchanged": true
+    }
+  ],
+  "blender_metadata_cleanup": [
+    {
+      "file": "Art/AeronautCoast.blend",
+      "original_sha256": "c72261f9293f2cbab88e6e834f9aaf29f3cbde897317e7b0d39bfa96eac79060",
+      "published_sha256": "af5088793804844442d9937956b4e2d38f4f1552cb86a4f11dfe65aa7d1fa0f2",
+      "structure": "FileSelectParams",
+      "field": "dir[1090]",
+      "offset": 147669,
+      "field_bytes": 1090,
+      "personal_directory_removed": true,
+      "all_non_UI_bytes_identical": true,
+      "blocks": 4205
+    },
+    {
+      "file": "Art/KeyWest/KeyWest.blend",
+      "original_sha256": "32b9d4457ac813f55b42cce3f84750e7a38eb3d682c6680833081c0f7ffbf05f",
+      "published_sha256": "a9fa19819f6d27a52ed5f8d48b847cc94dcf00d8c222c4c2e7e81ebb2570d5b3",
+      "structure": "FileSelectParams",
+      "field": "dir[1090]",
+      "offset": 147861,
+      "field_bytes": 1090,
+      "personal_directory_removed": true,
+      "all_non_UI_bytes_identical": true,
+      "blocks": 11860
+    },
+    {
+      "file": "Art/KeyWestDetail/Ground/KeyWestGround.blend",
+      "original_sha256": "73760caee4bfd98de68e93465c6b5ced8e7a3129338a3c703f3338994a809d73",
+      "published_sha256": "14c3558df951994fc818b42ed7ac92b8f0acb75ac84d040af08983cba5417784",
+      "structure": "FileSelectParams",
+      "field": "dir[1090]",
+      "offset": 147861,
+      "field_bytes": 1090,
+      "personal_directory_removed": true,
+      "all_non_UI_bytes_identical": true,
+      "blocks": 4194
+    },
+    {
+      "file": "Art/KeyWestDetail/KeyWestDetail.blend",
+      "original_sha256": "5c8332cca2043473fe72ebc807137734e838f029356f63b944e888760703230a",
+      "published_sha256": "7f47be441d94365d60a678ed3d5baede431b8e4690dbdc8ffe7b40f52c2352ca",
+      "structure": "FileSelectParams",
+      "field": "dir[1090]",
+      "offset": 147861,
+      "field_bytes": 1090,
+      "personal_directory_removed": true,
+      "all_non_UI_bytes_identical": true,
+      "blocks": 20131
+    }
+  ]
+}
